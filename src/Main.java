@@ -12,7 +12,7 @@ public class Main {
         int b = calculator.minus.apply(1, 1);
 
         try {
-            int c = calculator.divide.apply(a, b);
+            int c = calculator.devide.apply(a, b);
             calculator.println.accept(c);
         } catch (ArithmeticException e) {
             System.out.println(e.getMessage() + ", делить на 0 нельзя");
